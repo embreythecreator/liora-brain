@@ -1,0 +1,16 @@
+{
+  "id": "liora-brain",
+  "name": "Liora Brain",
+  "version": "0.19.0",
+  "description": "Self-improving open-source AI agent by Liora with ACP editor integration, persistent memory, skills, and rich tool support.",
+  "repository": "https://github.com/embreythecreator/liora-brain",
+  "website": "https://liora-brain.embreythecreator.com/docs/user-guide/features/acp",
+  "authors": ["Liora"],
+  "license": "MIT",
+  "distribution": {
+    "uvx": {
+      "package": "liora-brain[acp]==0.19.0",
+      "args": ["liora-acp"]
+    }
+  }
+}
