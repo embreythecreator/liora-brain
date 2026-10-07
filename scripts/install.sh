@@ -2084,7 +2084,7 @@ EOF
     chmod +x "$command_link_dir/liora-brain"
     log_success "Installed liora-brain launcher → $command_link_display_dir/liora-brain"
 
-    # Also expose `liora-acp`. ACP hosts (Zed, JetBrains, Buzz) resolve the
+    # Also expose `liora-acp`. ACP hosts (Zed, JetBrains, Plane) resolve the
     # agent by command name on the login-shell PATH, and the `liora-acp`
     # console script lives inside the venv, which is not on that PATH. Without
     # this launcher those hosts report Liora as not installed. (#21454 applies
